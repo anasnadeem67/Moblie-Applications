@@ -1,0 +1,61 @@
+name: fin_track
+description: "A professional Financial Tracking App for small businesses and freelancers."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  
+  # Firebase - Core Backend Services for Auth, Database, and Storage
+  firebase_core: ^4.3.0
+  firebase_auth: ^6.1.3
+  cloud_firestore: ^6.1.1
+  firebase_storage: ^13.0.5
+  
+  # State Management, Networking, and Utilities
+  provider: ^6.1.5+1
+  http: ^1.1.0        # Used for real-time Currency Exchange API calls
+  intl: ^0.20.2       # Handles date formatting and localizations
+  path_provider: ^2.1.5 # Accesses local storage for saving PDF reports
+  
+  # UI Components & Data Visualization
+  fl_chart: ^0.66.0   # Provides Pie charts and Bar graphs for analytics
+  font_awesome_flutter: ^10.12.0
+  google_fonts: ^6.3.3 # Custom typography (Poppins/Noto Sans) for the UI
+  
+  # Professional Invoice & QR Code Generation for Auditing
+  pdf: ^3.11.3        # Library to create professional PDF documents
+  printing: ^5.14.2   # Direct printing and PDF preview functionality
+  qr_flutter: ^4.1.0  # Generates secure QR codes for report verification
+  
+  # Enhanced UX with Vector Animations
+  lottie: ^3.1.2      # High-quality animations for splash and loading screens
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.14.4 # Automates the generation of App Icons for Android/iOS
+
+flutter:
+  uses-material-design: true
+
+  # Asset management for branding and static images
+  assets:
+    - assets/images/
+    - assets/images/icon.png
+
+# Configuration for the application's launcher icon
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/icon.png"
+  adaptive_icon_background: "#2196F3" 
+  adaptive_icon_foreground: "assets/images/icon.png"

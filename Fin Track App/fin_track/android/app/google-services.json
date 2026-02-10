@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "157534509468",
+    "project_id": "fin-track-5d379",
+    "storage_bucket": "fin-track-5d379.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:157534509468:android:9928bbe5fe31c9e1721059",
+        "android_client_info": {
+          "package_name": "com.example.fin_track"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYoI1xARRHmyWNfidtLBt6KcSbdjusCfg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
